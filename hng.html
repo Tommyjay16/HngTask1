@@ -1,41 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hng Internship</title>
+    <title>HNGx Task 1</title>
     <link rel="stylesheet" href="hng.css">
 </head>
 <body>
-    <div class="wholeContainer">
-  
-    <!--Slack Name-->
-    <h1  data-testid="slackUserName">Tomiwa Alausa</h1>  
-    
-    <!--Slack Display Picture-->
-    <img id="myImg" src="slack display image.png" data-testid="slackDisplayImage" alt="Tommy Jay">
-
-    <!--Current Day of the Week-->
-    <p>Current Day of the Week:<span data-testid="currentDayofTheWeek"></span></p>
-
-    <!--Current UTC Time-->
-    <p>Current UTC Time:<span data-testid="currentUTCTime"></span></p>
-
-    <!--Track-->
-    <p data-testid="myTrack">Track: Frontend.</p>
-
-    <!--GitHub URL-->
-    <p data-testid="githubURL">GitHub URL:
-        <a href="https://github.com/Tommyjay16">Visit GitHub Profile</a>
-    </p>
-
-    </div>
-
+   
+    <main>
+        <header>
+            <h1 data-testid="slackUserName">Tomiwa Alausa</h1>
+            <img src="slack display image.png" alt="my-picture" data-testid="slackDisplayImage">
+        </header>
+        <p><strong>Current Day of the Week:</strong> <span data-testid="currentDayOfTheWeek"></span></p>
+        <p><strong>Current UTC Time:</strong> <span data-testid="currentUTCTime"></span></p>
+        <p><strong>Track:</strong> <span data-testid="myTrack">Frontend</span></p>
+        <p><strong>GitHub URL:</strong> <a href="https://github.com/Tommyjay16" data-testid="githubURL">Visit GitHub</a></p>
+    </main>
     <script src="script.js"></script>
-    
-
-
-
 </body>
 </html>
